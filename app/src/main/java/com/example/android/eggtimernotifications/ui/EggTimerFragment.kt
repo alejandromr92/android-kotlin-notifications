@@ -72,6 +72,8 @@ class EggTimerFragment : Fragment() {
                 lightColor = Color.RED
                 enableVibration(true)
                 description = "Time for breakfast"
+                // TODO: Step 2.6 disable badges for channel
+                setShowBadge(false)
             }
 
             val notificationManager =
